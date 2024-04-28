@@ -63,7 +63,7 @@ public class Train {
         for(int i=0;i<cars.size();i++){
             remainingSeats += cars.get(i).seatsRemaining();
         }
-        return remainingSeats
+        return remainingSeats;
       }
       
       /* 

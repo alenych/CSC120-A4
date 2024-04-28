@@ -68,7 +68,7 @@ public class Engine{
             System.out.println("Fuel Remaining: " + this.currentFuel);
         }
         }
-    }
+    
 
 public static void main(String[] args) {
     Engine myEngine = new Engine(FuelType.ELECTRIC, 100.0);
